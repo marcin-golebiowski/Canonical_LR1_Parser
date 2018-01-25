@@ -36,8 +36,8 @@ any other productions should not include the starting label as a component in it
 ## 6. Other important issues:
 > + Q1: How to deal with ambiguity in an LR grammar? (For example, the "dangling else" problem)
 >
-> + A1: I use a terminal label stack ("terminal_stack" in "parseLine" method) to store a previously 
-appearing terminal label. When constructing a LR_DFA, the program will maintain those cores where protential
+> + A1: I use a terminal label stack ("terminal_stack" in "parseLine" method) to store previously 
+appearing terminal labels. When constructing a LR_DFA, the program will maintain those cores where protential
 conflicts will occur. And when parsing a sequence, the program will first find out the outing edges, 
 then get all possible actions(a shift, a reduce or a shift and a reduce), then:
 >> If a terminal label "a" corresponds to action "SHIFT" and the prority of label "a" is higher than 
