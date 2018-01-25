@@ -7,7 +7,7 @@ Program a simple Syntax Analyzer.
 + Input2: Context-Free Grammar 
 >	- Assume that they are defined in the file "./sample/Language.txt"
 >
->	- Also, additonal priority relationship are defined in the file "./sample/Priority.txt"
+>	- Also, additonal priority relationships are defined in the file "./sample/Priority.txt"
 >
 + Output: Sequence of reductions
 > - The result is displayed in the file “./sample/Analysis Result.txt”
