@@ -4,8 +4,8 @@
 /***********************************************************
 From: Marco Qiaofeng Liu (Email: qiaofengmarco@outlook.com),
 	  School of Computer Science and Engineering,
-	  Southeast University, Jiulonghu Campus,
-	  Nanjing, China
+      Southeast University, Jiulonghu Campus,
+      Nanjing, China
 ************************************************************/
 
 #include<stack>
